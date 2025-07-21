@@ -1,7 +1,7 @@
 <h1>Portfólio</h1>
 
 <h2>Sobre</h2>
-Uma pequena apresentação de Pablo Silva e sobre suas atuações na área de desenvolvimento
+Uma pequena apresentação de Pablo Silva e sobre suas atuações na área de desenvolvimento.
 
 ## Tecnologias
 <div>
