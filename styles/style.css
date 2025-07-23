@@ -9,11 +9,19 @@ a {
     text-decoration: none;
 }
 
-body {
-    /* height: 100vh;  */
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-tercearia: #22D4FD;
+    --cor-hover: #272727;    
+    --font-primaria: "Krona One", sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif
+}
+
+body {    
     box-sizing: border-box;
-    background-color: #000000;
-    color: #f6f6f6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho {
@@ -26,10 +34,10 @@ body {
 }
 
 .cabecalho__menu__link {    
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-tercearia);
 }
 
 .apresentacao {
@@ -48,20 +56,20 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--font-primaria);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-secundaria);
 }
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--cor-tercearia);
 }
 
 #pablo:hover {
-    color: #22D4FD;    
+    color: var(--cor-tercearia);    
 }
 
 .apresentacao__links {
@@ -73,40 +81,39 @@ body {
 }
 
 .apresentacao__links__subtitulo{
-    font-family: 'krona one', sans-serif;
+    font-family: var(--font-primaria);
     font-weight: 400;
 }
 
-.apresentacao__links__socialMedia {
-    /* background-color: #22D4FD; */
+.apresentacao__links__socialMedia {    
     display: flex;
     justify-content: center;
     gap: 16px;
     width: 378px;
     text-align: center;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-tercearia);
     border-radius: 8px;
     padding: 21.5px 0;
     font-size: 24px;    
-    color: #f6f6f6;
+    color: var(--cor-secundaria);
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-secundaria);
 }
 
 .apresentacao__links__socialMedia:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 img {
     border-radius: 500px;
-    border: 3px solid #22D4FD;
+    border: 3px solid var(--cor-tercearia);
 }
 
 .rodape {
-    color: #000000;
-    background-color: #22D4FD;
+    color: var(--cor-primaria);
+    background-color: var(--cor-tercearia);
     text-align: center;
     padding: 24px;
-    font-family: 'montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-weight: 400;
 }
