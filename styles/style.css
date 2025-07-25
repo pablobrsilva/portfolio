@@ -141,4 +141,13 @@ img {
         width: auto;
         
     }
+
+    .apresentacao__imagem {
+        width: 70%;
+    }
+
+    .apresentacao__links__socialMedia {
+        width: 75%;
+        font-size: 1.2rem;  
+    }
 }
